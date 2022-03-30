@@ -6,7 +6,7 @@ Going back over old Prime Repos and redoing in C#.  This repo is for prime-pw-we
 - Arrays
 
 _Provided Files_
-- array-practice.js (Required Features, & Stretch Goals)
+- Program.cs (Required Features, & Stretch Goals)
 ```
 In the file there are some examples of working with arrays followed by TODO comments with tasks for you to complete by writing some code following up on what is shown in the example.
 ```
