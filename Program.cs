@@ -87,6 +87,7 @@ Console.WriteLine("new foods: " + string.Join(", ", newFoods));
 // 4.d TODO: Remove the food at the beginning of your array &
 //     log both the food removed and the updated array
 List<string> list = new List<string>(newFoods);
-        list.RemoveAt(0);
-        newFoods = list.ToArray();
+list.RemoveAt(0);
+newFoods = list.ToArray();
+
 Console.WriteLine("original fav foods: " + String.Join(", ", newFoods));
