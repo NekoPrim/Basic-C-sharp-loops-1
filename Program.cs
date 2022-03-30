@@ -4,29 +4,34 @@
 Console.WriteLine("--- 1. Practice creating arrays ---");
 
 // Example: Array of animals
-// let animalArray = ['fish', 'cat', 'bird', 'dog'];
-// console.log('Animals are: ', animalArray);
-
+string[] animalArray = {"fish", "cat", "bird", "dog"};
+Console.WriteLine("Animals are:");
+foreach (string i in animalArray)
+{
+    Console.WriteLine(i);
+}
 // 1.a. TODO: Make an array with some favorite foods
 
-// let favoriteFoods=['raspberries', 'strawberries', 'pizza', 'cheesecake'];
+string[] favoriteFoods = {"raspberries", "strawberries", "pizza", "cheesecake"};
 
 // console.log('My favorite foods are: ' + favoriteFoods);
 
 // 1.b. TODO: Log your array of foods to the console with a message, similar
 //      to the example above
-
-// console.log('Favorite foods are:', favoriteFoods);
+Console.WriteLine("Favorite foods are:");
+foreach (string food in favoriteFoods)
+{
+    Console.WriteLine(food);
+}
 
 // 2. Array.length - tells you how many items are in the array
-// console.log('--- 2. Length of an array ---');
+Console.WriteLine("--- 2. Length of an array ---");
 
 // Example: How many animals are in the array?
-// console.log('Number of animals:', animalArray.length);
+Console.WriteLine("Number of animals: " + animalArray.Length);
 
 // 2.a. TODO: Log to the console the number of foods in your array
-
-// console.log('Number of favorite foods:', favoriteFoods.length);
+Console.WriteLine("Number of favorite foods: " + favoriteFoods.Length);
 
 // 3. Accessing array items
 // console.log('--- 3. Accessing items in an array ---');
