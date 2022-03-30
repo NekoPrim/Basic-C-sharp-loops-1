@@ -34,36 +34,20 @@ Console.WriteLine("Number of animals: " + animalArray.Length);
 Console.WriteLine("Number of favorite foods: " + favoriteFoods.Length);
 
 // 3. Accessing array items
-// console.log('--- 3. Accessing items in an array ---');
+Console.WriteLine("--- 3. Accessing items in an array ---");
 
 // Example: Log the first animal from the array using it's array index
-// console.log('First animal is', animalArray[0]);
+Console.WriteLine("First animal is " + animalArray[0]);
 
 // 3.a. TODO: Log the second animal in the array
-
-// console.log('Second animal is', animalArray[1]);
+Console.WriteLine("Second animal is " + animalArray[1]);
 
 // 3.b. TODO: Log the last animal in the array using it's array index
-
-// console.log('Last animal is', animalArray[3]);
+Console.WriteLine("Last animal is " + animalArray[3]);
 
 // 3.c. (STRETCH) TODO: Log the last animal by using the array length,
 //      instead of the exact index number of the last item
-
-//only way I could think of how to use .length to generate last animal
-// let x=0;
-// let length= animalArray.length;
-
-// while (x < length){
-//   if (x === 3){
-//     console.log('Last animal is', animalArray[x]);
-//   }
-//   x ++;
-// }
-
-//This is how you probably want it solved, but I couldnt find references to this
-//anywhere on google
-// console.log(animalArray[animalArray.length-1]);
+Console.WriteLine(animalArray[animalArray.Length-1]);
 
 // 4. Adding & Removing Array Items
 // console.log('--- 4. Adding and removing array items ---');
